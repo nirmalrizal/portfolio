@@ -2,7 +2,6 @@ import {
   Logo,
   NavbarTwoColumns,
   NavMenu,
-  NavMenuItem,
   Section,
 } from 'astro-boilerplate-components';
 
@@ -32,13 +31,7 @@ const Navbar = () => (
         />
       </a>
 
-      <NavMenu>
-        {/* <NavMenuItem href="/posts">Blogs</NavMenuItem> */}
-        <NavMenuItem href="https://github.com/nirmalrizal">GitHub</NavMenuItem>
-        <NavMenuItem href="https://twitter.com/nirmalrizal">
-          Twitter
-        </NavMenuItem>
-      </NavMenu>
+      <NavMenu>{/* <NavMenuItem href="/posts">Blogs</NavMenuItem> */}</NavMenu>
     </NavbarTwoColumns>
   </Section>
 );

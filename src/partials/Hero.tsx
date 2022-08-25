@@ -35,16 +35,22 @@ const Hero = () => (
       }
       socialButtons={
         <>
-          <a href="https://twitter.com/nirmalrizal">
+          <a href="https://twitter.com/nirmalrizal" target="_blank">
             <HeroSocial
               src="/assets/images/twitter-icon.png"
               alt="Twitter icon"
             />
           </a>
-          <a href="https://www.linkedin.com/in/nirmalrijal/">
+          <a href="https://www.linkedin.com/in/nirmalrijal/" target="_blank">
             <HeroSocial
               src="/assets/images/linkedin-icon.png"
               alt="Linkedin icon"
+            />
+          </a>
+          <a href="https://github.com/nirmalrizal" target="_blank">
+            <HeroSocial
+              src="/assets/images/github-icon.png"
+              alt="Github icon"
             />
           </a>
         </>
